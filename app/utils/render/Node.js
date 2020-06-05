@@ -91,7 +91,7 @@ export default class Node {
   ) {
     if (type === null) console.warn('null type');
     this.id = id;
-    if (!id) this.id = uuid.v4();
+    if (!id) this.id = uuid();
     this.parent = parent;
     this.type = type || props.type;
     this.props = JSON.stringify(props) !== '{}' ? Object.assign(getDefaultProps(type), props) : getDefaultProps(type);

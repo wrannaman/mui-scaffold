@@ -34,7 +34,7 @@ class Nodes {
   }
 
   addNode = (item, parent, props = {}) => {
-    const id = uuid.v4();
+    const id = uuid();
     let type = item.name;
     if (item.type === 'repeatable') type = 'repeatable';
     if (item.type === 'form') type = 'form';

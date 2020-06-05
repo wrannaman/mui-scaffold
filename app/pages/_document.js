@@ -30,22 +30,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Poppins:300,400,500"
           />
           <link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
-          <meta name="description" content="No Code Development Platform" />
-          <meta name="keywords" content="nocode, no-code, no code, low-code, low code, low code platform, no code platform, no code development, low code development" />
-          {process.env.ENV !== 'dev' && (
-            <script
-              dangerouslySetInnerHTML={{ __html: `
-                (function(h,o,t,j,a,r){
-                    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                    h._hjSettings={hjid:1659299,hjsv:6};
-                    a=o.getElementsByTagName('head')[0];
-                    r=o.createElement('script');r.async=1;
-                    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                    a.appendChild(r);
-                })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-              `}}
-            />
-          )}
+          <meta name="description" content="Material UI Scaffolding" />
+          <meta name="keywords" content="react,web dev,mui,material ui" />
         </Head>
         <body>
           <Main />
