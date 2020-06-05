@@ -1,0 +1,30 @@
+
+
+.page-style-width {
+  width: 550px;
+  margin-top: 15px;
+}
+
+
+.reactour__helper--is-open {
+  max-width: 600px !important;
+}
+
+#drift-widget {
+  bottom: 0;
+  right: inherit !important;
+  left: 0px;
+}
+
+.__giveSpace {
+  padding: 10px;
+  margin: 10px;
+}
+
+.white-space-pre {
+  white-space: pre;
+}
+
+.__max_width {
+  max-width: 80%;
+}

@@ -1,0 +1,6 @@
+console.js
+*.min.js
+.git
+.next
+node_modules
+localforage.min.js
