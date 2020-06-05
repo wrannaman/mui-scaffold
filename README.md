@@ -1,6 +1,16 @@
 # Mui Scaffold
 **Easily scaffold material ui projects**
 
+# Should this be a product?
+
+Would you like to see this as a full product:
+ - save your items
+ - add more pre-defined components
+ - saved exports
+ - teams / multiplayer
+
+If you would like to see this project turn into a full product, vote with your email and [join our substack for updates](https://sugarkubes.substack.com/)
+
 ## To Run
 
 ```sh
