@@ -23,7 +23,7 @@
     "date-fns": "^2.4.1",
     "downshift": "^3.3.4",
     "flexsearch": "^0.6.32",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "material-table": "^1.54.1",
     "mobx": "^5.15.0",
     "mobx-react": "^6.1.4",
